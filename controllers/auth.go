@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/parnurzeal/gorequest"
 	"github.com/lukashes/go-echo-auth/utils"
+	"github.com/parnurzeal/gorequest"
 )
 
 type AuthParams struct {

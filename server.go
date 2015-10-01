@@ -5,8 +5,8 @@ import (
 
 	"github.com/labstack/echo"
 	mw "github.com/labstack/echo/middleware"
-	"github.com/tylerb/graceful"
 	"github.com/mc2soft/dating/echo/controllers"
+	"github.com/tylerb/graceful"
 )
 
 func main() {

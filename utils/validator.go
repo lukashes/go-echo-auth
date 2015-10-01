@@ -6,5 +6,5 @@ var Validator *validator.Validate
 
 func init() {
 	config := &validator.Config{TagName: "validate"}
-    Validator = validator.New(config)
+	Validator = validator.New(config)
 }
